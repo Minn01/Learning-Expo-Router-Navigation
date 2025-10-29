@@ -1,4 +1,4 @@
-import { CharacterType } from "@/app/index";
+import { CharacterType } from "@/types/CharacterType";
 import { useLocalSearchParams, useNavigation } from "expo-router";
 import { useEffect, useState } from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
@@ -56,7 +56,7 @@ export default function CharacterDetail() {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 50,
+    marginTop: 16,
     marginHorizontal: 16,
     flex: 1,
     display: "flex",
